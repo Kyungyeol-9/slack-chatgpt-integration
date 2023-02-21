@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: slack-bot
+    restart: unless-stopped
+    volumes:
+      - ${PWD}/app/.env:/app/.env
