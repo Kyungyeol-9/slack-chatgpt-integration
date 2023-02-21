@@ -60,3 +60,9 @@ docker compose up --build -d
   - Basic Information
     - App Credentials
       - Signing Secret
+
+### slack bot add to channel
+
+- add bot to slack workspace
+- open bot profile
+- set add to channel
