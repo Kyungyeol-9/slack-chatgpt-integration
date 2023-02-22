@@ -32,11 +32,11 @@ docker compose up --build -d
 ### Basic Information
 
 - Add features and functionality
-  - [ ] Bots
+  - Bots
 
 ### Socket Mode
 
-- [ ] Enable Socket Mode
+- Enable Socket Mode
 
 ### OAuth & Permissions
 
