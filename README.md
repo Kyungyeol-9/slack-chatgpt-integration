@@ -2,6 +2,9 @@
 
 ## Quick Start
 
+- Slack bot setup
+- Update token
+
 ```bash
 docker compose up --build -d
 ```
@@ -18,10 +21,18 @@ docker compose up --build -d
 - docker
 - docker compose
 
-### Options
+## Configure
 
-- [ ] Socket Mode On
-- [ ] Event Subscriptions On
+- Create Slackbot
+- Set to 'Bot'
+- follow below
+
+---
+
+### Basic Information
+
+- Add features and functionality
+  - [ ] Bots
 
 ### Socket Mode
 
@@ -38,7 +49,7 @@ docker compose up --build -d
 
 ### Event Subscriptions
 
-- On
+- Enable Events On
 - Subscribe to bot events
   - app_mention
 
@@ -48,7 +59,9 @@ docker compose up --build -d
   - connections:write
   - authorizations:read
 
-### Where is Tokens
+---
+
+## Where is Tokens
 
 - SLACK_BOT_TOKEN
   - OAuth & Permissions
@@ -61,7 +74,7 @@ docker compose up --build -d
     - App Credentials
       - Signing Secret
 
-### slack bot add to channel
+## slack bot add to channel
 
 - add bot to slack workspace
 - open bot profile
