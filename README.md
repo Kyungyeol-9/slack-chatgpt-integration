@@ -16,16 +16,12 @@ docker compose up --build -d
 - [x] oauth token and monitoring channel
 - [x] openai integration code
 
-## slack bot Pre-requisities
+## Pre-requisities
 
 - docker
 - docker compose
 
 ## Configure
-
-- Create Slackbot
-- Set to 'Bot'
-- follow below
 
 ---
 
